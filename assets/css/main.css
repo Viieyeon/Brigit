@@ -1,0 +1,365 @@
+/* Style for all */
+
+.underline{
+    text-decoration: underline;
+}
+
+.gp-15 {
+    gap: 15px;
+}
+
+.gp-2 {
+    gap: 20px;
+}
+
+.gp-4 {
+    gap: 40px;
+}
+
+.fl {
+    display: flex;
+}
+
+.fd-col {
+    flex-direction: column;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-e {
+    justify-content: end;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+
+
+.ai-e {
+    align-items: end;
+}
+
+.as-c {
+    align-self: center;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+/* Обычный 400 */
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+/* Немного жирный 600*/
+@font-face {
+    font-family: 'Montserrat-Semiblod';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+/* Жирный 700*/
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+/* Очень жирный 800*/
+@font-face {
+    font-family: 'Montserrat-Extrabold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+.container {
+    padding: 40px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #171717;
+    font-size: 40px;
+    font-family: 'Montserrat-Extrabold';
+    line-height: 150%;
+}
+
+h2 {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat-Semiblod';
+    line-height: 150%;
+}
+
+h3 {
+    color: #FF822E;
+    font-size: 20px;
+    font-family: 'Montserrat-Bold';
+    line-height: 150%;
+}
+
+h4 {
+    color: #FF822E;
+    font-size: 20px;
+    font-family: 'Montserrat-Bold';
+    line-height: 150%;
+}
+
+h5 {
+    color: #A7A7A7;
+    font-size: 13px;
+    font-family: 'Montserrat-Regular';
+    line-height: 150%;
+    text-decoration: line-through;
+    text-decoration-color: #A7A7A7;
+}
+
+p,
+a {
+    color: #171717;
+    font-size: 18px;
+    font-family: 'Montserrat-Regular';
+    line-height: 150%;
+}
+
+h1 a {
+    color: #171717;
+    font-size: 40px;
+    font-family: 'Montserrat-Extrabold';
+    line-height: 150%;
+}
+
+
+button {
+    color: #FFF;
+    font-size: 13px;
+    font-family: 'Montserrat-Regular';
+}
+
+h2+div {
+    margin: 40px 0;
+}
+
+/* Style for Header */
+.headerTop {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.line{
+    width: 100%;
+    max-width: 1200px;
+    padding: 4px 0;
+}
+
+/* Style for Slider */
+.mySwiper {
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+:root {
+    --swiper-theme-color: #ff0000;
+}
+
+.slide {
+    max-width: 1200px;
+    width: 100%;
+    max-height: 500px;
+}
+
+.feedBack {
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background: #FF822E;
+}
+
+/* Style for Stocks */
+.productCard {
+    width: 285px;
+    height: 400px;
+    border-radius: 5px;
+    background: #F5F5F5;
+    box-shadow: -4px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+}
+
+
+.buy {
+    margin-top: 30px;
+    width: 244px;
+    height: 38px;
+    border-radius: 5px;
+    background: #C31F04;
+}
+
+.textCard {
+    margin-left: 20px;
+}
+
+.headrCard {
+    margin: 12px 0;
+}
+
+.prices h4 {
+    margin-right: 40px;
+}
+
+/* Style for About us */
+.abouts {
+    background: #F5F5F5;
+    padding: 40px 0;
+}
+
+.aboutCard {
+    width: 590px;
+}
+
+.aboytImage {
+    margin: 40px 0;
+}
+
+
+/* Style for Catalog */
+.catalogCard {
+    width: 285px;
+    height: 245px;
+}
+
+.navigation {
+    width: 100%;
+    max-width: 662px;
+}
+
+.more {
+    width: 186px;
+    height: 30px;
+    border-radius: 30px;
+    background: #FF9800;
+}
+
+.catalogCardOne {
+    background: url(../img/catalogOne.png);
+}
+
+.catalogCardTwo {
+    background: url(../img/catalogTwo.png);
+}
+
+.catalogCardThree {
+    background: url(../img/catalogThree.png);
+}
+
+.catalogCardFour {
+    background: url(../img/catalogFour.png);
+}
+
+.catalogCardFive {
+    background: url(../img/catalogFive.png);
+}
+
+.catalogCardSix {
+    background: url(../img/catalogSix.png);
+}
+
+.catalogCardSeven {
+    background: url(../img/catalogSeven.png);
+}
+
+.catalogCardEight {
+    background: url(../img/catalogEight.png);
+}
+
+.catalogCardTint {
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+}
+
+.catalogCards h2 {
+    margin: 70px 0 20px 0;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat-Regular';
+    line-height: 150%;
+}
+
+.catalogCard h2 {
+    padding: 0 10px;
+    height: 84px;
+}
+
+/* Style for FAQ */
+.faq {
+    background: #F5F5F5;
+}
+
+.question p{
+ margin: 10px 0 30px 0;   
+}
+
+/* Style for Contacts */
+.contact {
+    width: 100%;
+    max-width: 1044px;
+}
+
+.informations {
+    height: 229px;
+}
+
+.contacts h3 {
+    margin-bottom: 5px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+}
+
+.ok {
+    background: url(../img/iconSpline.svg);
+    background-position: 0 0;
+}
+
+.tg {
+    background: url(../img/iconSpline.svg);
+    background-position: -45px 0;
+}
+
+.ws {
+    background: url(../img/iconSpline.svg);
+    background-position: 30px 0;
+}
+
+map{
+    width: 100%;
+    max-width: 560px;
+}
+
+/* Style for Footer */
+footer {
+    background: #F5F5F5;
+}
+
+.footerContainer .navigationFooter {
+    width: 455px;
+}
+
+.copyrate {
+    margin-top: 60px;
+}
